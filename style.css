@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image.jpg);
+}
+
+section
+{
+    margin-left: 10%;
+}
+
+form input
+{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: 30px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input:focus
+{
+    background-color: wheat;
+}
+
+.hi
+{
+    border: 2px solid blanchedalmond;
+    color: white;
+    font-size: 1.8em;
+    background-color: darkred;
+}
+
+.left
+{
+    margin-right: auto;
+}
+
+input[type="checkbox"]
+{
+    margin-top: 2px;
+    width: 25px; height: 25px;
+}
+
+div h1
+{
+    display: inline;
+    color: lightblue;
+    border-top: 2px solid khaki;
+    border-right: 2px solid khaki;
+    border-left: 2px solid khaki;
+}
+
+.fav
+{
+    color: goldenrod;
+}
